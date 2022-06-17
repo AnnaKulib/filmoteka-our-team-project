@@ -3,14 +3,14 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://dairedo7.github.io/filmoteka/",
+  "homepage": "https://AnnaKulib.github.io/filmoteka/",
   "scripts": {
     "dev": "parcel src/*.html --open",
     "build": "parcel build src/*.html --public-url /filmoteka/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dairedo7/filmoteka.git"
+    "url": "git+https://github.com/AnnaKulib/filmoteka.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
