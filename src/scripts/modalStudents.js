@@ -8,7 +8,6 @@ openModalBtn.addEventListener('click', onOpenModal);
 closeModalBtn.addEventListener('click', onCloseModal);
 backdrop.addEventListener('click', onBackdropClick);
 
-
 function onOpenModal() {
     window.addEventListener('keydown', onEsc)
   document.body.classList.add('show-modal');
@@ -17,7 +16,6 @@ function onOpenModal() {
   document.body.style.overflow = 'hidden';
 
 };
-
 
 function onCloseModal() {
   document.body.classList.remove('show-modal');
@@ -37,5 +35,3 @@ if (event.code === 'Escape') {
     onCloseModal()
 }
 };
-
-
